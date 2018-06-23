@@ -62,15 +62,15 @@
   },
   "homepage": "https://github.com/marianzburlea/pug-starter#readme",
   "devDependencies": {
-    "autoprefixer": "^6.7.5",
     "@babel/cli": "7.0.0-beta.48",
     "@babel/core": "7.0.0-beta.48",
-    "@babel/register": "7.0.0-beta.48",
     "@babel/plugin-transform-modules-commonjs": "7.0.0-beta.48",
     "@babel/preset-env": "7.0.0-beta.48",
     "@babel/preset-flow": "7.0.0-beta.48",
     "@babel/preset-stage-0": "7.0.0-beta.48",
     "@babel/preset-stage-1": "7.0.0-beta.48",
+    "@babel/register": "7.0.0-beta.48",
+    "autoprefixer": "^6.7.5",
     "babel-eslint": "^8.0.1",
     "babel-loader": "8.0.0-beta.3",
     "browser-sync": "^2.18.8",
@@ -90,7 +90,7 @@
     "gulp-postcss": "^6.3.0",
     "gulp-pug": "^3.2.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.4.1",
     "imagemin-jpegoptim": "^5.0.0",
     "imagemin-pngquant": "^5.0.0",
@@ -98,5 +98,8 @@
     "jstransformer-markdown-it": "^2.0.0",
     "merge-stream": "^1.0.1",
     "minimist": "^1.2.0"
+  },
+  "dependencies": {
+    "tunnel-agent": "^0.6.0"
   }
 }
