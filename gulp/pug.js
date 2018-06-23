@@ -29,6 +29,7 @@ const pug = ({
       ])
       // .pipe(plugins.debug())
       // Only deal with files that change in the pipeline
+      .pipe(plugins.changedInPlace({ firstPass: true }))
       .pipe(plugins.if(
         config.render.sourceFileChange,
         plugins.changedInPlace({ firstPass: true })
